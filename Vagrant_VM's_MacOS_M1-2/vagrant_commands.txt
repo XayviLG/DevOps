@@ -1,0 +1,38 @@
+1. vagrant init: Initializes a new Vagrant environment by creating a Vagrantfile (configuration file) in the current directory.
+   Example: vagrant init [box_name]
+
+2. vagrant up: Creates and configures a new virtual machine based on the Vagrantfile.
+   Example: vagrant up
+
+3. vagrant halt: Shuts down the running virtual machine.
+   Example: vagrant halt
+
+4. vagrant destroy: Destroys the virtual machine and removes all traces of it.
+   Example: vagrant destroy
+
+5. vagrant suspend: Suspends the virtual machine, saving its current state.
+   Example: vagrant suspend
+
+6. vagrant resume: Resumes a suspended virtual machine.
+   Example: vagrant resume
+
+7. vagrant status: Shows the status of the virtual machine.
+   Example: vagrant status
+
+8. vagrant ssh: Connects to the virtual machine via SSH.
+   Example: vagrant ssh
+
+9. vagrant ssh-config: Outputs OpenSSH valid configuration to connect to the machine.
+   Example: vagrant ssh-config
+
+10. vagrant provision: Reruns the provisioning scripts on a running virtual machine.
+    Example: vagrant provision
+
+11. vagrant reload: Restarts the virtual machine, applying any changes made to the Vagrantfile.
+    Example: vagrant reload
+
+12. vagrant plugin install: Installs a Vagrant plugin.
+    Example: vagrant plugin install [plugin_name]
+
+13. vagrant plugin list: Lists installed plugins.
+    Example: vagrant plugin list
